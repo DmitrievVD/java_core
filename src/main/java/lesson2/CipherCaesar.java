@@ -2,12 +2,12 @@ package lesson2;
 
 public class CipherCaesar {
 
-    public static void main(String[] args) {
-        String mas = "Привет, как дела?";
-        String mas1 = caesar(mas, 2, true);
-        System.out.println(mas1);
-        System.out.println(caesar(mas1, 2, false));
-    }
+//    public static void main(String[] args) {
+//        String mas = "Привет, как дела?";
+//        String mas1 = caesar(mas, 2, true);
+//        System.out.println(mas1);
+//        System.out.println(caesar(mas1, 2, false));
+//    }
 
 
     public static String caesar(String in, int key, boolean encrypt){ // Шифр Цезаря
